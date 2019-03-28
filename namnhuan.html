@@ -5,6 +5,22 @@
     <title>Title</title>
 </head>
 <body>
+<script>
+    let  nhapnam =prompt("nhap");
+    nhapnam=parseInt(nhapnam);
 
+    if(nhapnam % 4 ==0 && nhapnam % 100!=0){
+        alert('nam nhuan');}
+
+  if ((nhapnam % 100 == 0)&&(nhapnam % 400 !=0)){
+      alert('khong phai nam nhuan');
+        }
+  if ((nhapnam % 100 ==0) &&(nhapnam % 400 ==0)){
+      alert('nam nhuan');
+  }
+
+
+
+</script>
 </body>
 </html>
